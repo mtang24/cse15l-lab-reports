@@ -18,10 +18,7 @@ In CSE 15L, we will be using course-specific accounts to connect to a remote com
 * Start by downloading a program called [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) and looking for your course-specific account [here](https://sdacs.ucsd.edu/~icc/index.php).
 * Then open a terminal (Terminal → New Terminal) in VSCode and enter the following command, but replace the example account with yours:
 
-`$ ssh cs15lwi22zz@ieng6.ucsd.edu`
-* Connecting to the server for the first time will give you a message similar to the following:
-
-![Image](setup.png)
+`$ ssh cs15lwi22auq@ieng6.ucsd.edu`
 
 * After entering `yes`, you will be prompted for your password, and upon providing it you should now be logged in with this output displayed:
 
@@ -105,7 +102,6 @@ You should now be able to `sch` and `scp` without needing your password.
 When editing and saving files, it can become a lengthy process. Try editing `WhereAmI.java` on your computer, and then use `scp` and run it on the remote computer. Here are some tips to speed up the process:
 
 * In the terminal, use the up arrow as many times as needed to get back commands recently used
-* Use semicolons to run multiple commands on a single line
 * Run a command directly on the remote computer  by surrounding it in quotes at the end of a `ssh`
 
 ![Image](7.png)
