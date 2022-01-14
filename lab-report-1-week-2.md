@@ -47,7 +47,7 @@ Here is a list of useful commands. Try running them on the server and think abou
 
 
 
-## Moving Files with `scp`
+## Moving Files with scp
 An important component of working remotely with computers is being able to transfer files back and forth from the local and remote computers.
 
 A `scp` command can be run from the client, which allows you to copy one or more files from your computer to a remote computer.
