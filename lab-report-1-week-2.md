@@ -112,34 +112,48 @@ For example, this is how I copied `WhereAmI.java` to the remote server and ran c
 
 The before picture shows the process before using this method, and the after picture shows the process using the method. 
 
+**before setting ssh keys:**
+
 ![Image](before.png)
 
-before setting ssh keys:
+
 4 - up (to get first command)
+
 1 - enter
+
 9 - password
+
 1 - enter
 
 4 - up
+
 1 - enter
 
 4 - up
+
 1 - enter
 
 4 - up
+
 1 - enter
 
 total: 30 keystrokes
 
+
+**after setting ssh keys:**
+
 ![Image](command.png) 
 
-after  setting ssh keys:
 1 - up
+
 1 - enter
+
 6 - passphrase 
+
 1 - enter
 
 total: 9 keystrokes
+
 
 For the before method, I entered all the commands on the first time and recalled them with the up arrow, but it still requires an unideal amount of keystrokes compared to the latter. Depending on your password length, that can also make the before method an even more tedious process.
 
