@@ -106,11 +106,43 @@ When editing and saving files, it can become a lengthy process. Try editing `Whe
 
 ![Image](7.png)
 
+Without using the ssh keys, you can still use the up arrow to recall the command, but you would need to enter your password for each command on the remote server and press enter for each command. That adds up to significantly more keystrokes than if you just put everything on one line and use ssh keys. 
 
-For example, this is how I copied `WhereAmI.java` to the remote server and ran commands there:
+For example, this is how I copied `WhereAmI.java` to the remote server and ran commands there.
+
+The before picture shows the process before using this method, and the after picture shows the process using the method. 
+
+![Image](before.png)
+
+before setting ssh keys:
+4 - up (to get first command)
+1 - enter
+9 - password
+1 - enter
+
+4 - up
+1 - enter
+
+4 - up
+1 - enter
+
+4 - up
+1 - enter
+
+total: 30 keystrokes
 
 ![Image](command.png) 
 
-As you can see, I used `scp` to copy it to the server and I then compiled it, using a series commands separated by semicolons. This is a more efficient process because it requires less keystrokes since everything is on one line.
+after  setting ssh keys:
+1 - up
+1 - enter
+6 - passphrase 
+1 - enter
 
- Once typing out the line the first time, use the up arrow and bgin counting from there. I needed 8 keystrokes... Try it for yourself and track the number of keystrokes it takes for you.
+total: 9 keystrokes
+
+For the before method, I entered all the commands on the first time and recalled them with the up arrow, but it still requires an unideal amount of keystrokes compared to the latter. Depending on your password length, that can also make the before method an even more tedious process.
+
+For the after method using the ssh keys, I used `scp` to copy it to the server and I then compiled it, using a series commands separated by semicolons. This is a more efficient process because it requires less keystrokes since everything is on one line.
+
+Once typing out the line the first time, use the up arrow and bgin counting from there. I needed 9 keystrokes... Try it for yourself and track the number of keystrokes it takes for you.
