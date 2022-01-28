@@ -152,15 +152,11 @@ total: 33 keystrokes
 
 1 - enter
 
-6 - passphrase 
+1 - enter
 
 1 - enter
 
-6 - passphrase 
-
-1 - enter
-
-total: 16 keystrokes
+total: 4 keystrokes
 
 
 For the before method, I entered all the commands on the first time and recalled them with the up arrow, but it still requires an unideal amount of keystrokes compared to the latter. That is why, depending on your passphrase length, the before method can be an even more tedious process.
