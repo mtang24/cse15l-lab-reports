@@ -163,4 +163,4 @@ For the before method, I entered all the commands on the first time and recalled
 
 For the after method, I used `scp` to copy it to the server and I then compiled it, using a series commands separated by semicolons. This is a more efficient process because it requires less keystrokes since everything is on one line.
 
-Once typing out the line the first time, use the up arrow and bgin counting from there. I needed 16 keystrokes... Try it for yourself and track the number of keystrokes it takes for you.
+Once typing out the line the first time, use the up arrow and bgin counting from there. I needed 4 keystrokes... Try it for yourself and track the number of keystrokes it takes for you.
