@@ -107,3 +107,10 @@ When editing and saving files, it can become a lengthy process. Try editing `Whe
 ![Image](7.png)
 
 
+For example, this is how I copied `WhereAmI.java` to the remote server and ran commands there:
+
+![Image](command.png) 
+
+As you can see, I used `scp` to copy it to the server and I then compiled it, using a series commands separated by semicolons. This is a more efficient process because it requires less keystrokes since everything is on one line.
+
+ Once typing out the line the first time, use the up arrow and bgin counting from there. I needed 8 keystrokes... Try it for yourself and track the number of keystrokes it takes for you.
