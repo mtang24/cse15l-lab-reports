@@ -41,3 +41,5 @@ Before making that change, running the markdown file would result in the followi
 **What happened here?**
 The test file with the failure-inducing input contained a link without having any parentheses, instead placing the link between brackets. This created a bug in `MarkdownParse.java`, as this file was expecting both an open and close parenthesis required  to create the substring that would be added to the ArrayList `toReturn`. As a result, running this code produced a noticeable symptom: an empty ArrayList `[]` (since incorrect index values did not permit a substring to be created and added to toReturn).
 
+
+
