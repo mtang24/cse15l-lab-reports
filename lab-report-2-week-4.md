@@ -30,16 +30,16 @@ The test file with the failure-inducing input contained a link without having bo
 
 ## Code Change 3
 
-![Image](change3.png)
+![Image](change3.1.png)
 
 This [test file](https://github.com/mtang24/markdown-parse/blob/main/test-file5.md) caused a failure-inducing input that prompted the changes made above.
 
 Before making that change, running the markdown file would result in the following:
 
-![Image](change3symptom.png)
+![Image](change3.1symptom.png)
 
 **What happened here?**
-The test file with the failure-inducing input contained a link without having any parentheses, instead placing the link between brackets. This created a bug in `MarkdownParse.java`, as this file was expecting both an open and close parenthesis required  to create the substring that would be added to the ArrayList `toReturn`. As a result, running this code produced a noticeable symptom: an empty ArrayList `[]` (since incorrect index values did not permit a substring to be created and added to toReturn).
+The test file with the failure-inducing input contained a link that was formatted incorrectly, using the format `()]` instead of a `[]()`. This created a bug in `MarkdownParse.java`, as this file was expecting the link inside the parentheses to create the substring that would be added to the ArrayList `toReturn`. As a result, running this code produced a noticeable symptom: the text was printed out in `[]` instead of the link (since `()` were used to contain the text).
 
 
 
