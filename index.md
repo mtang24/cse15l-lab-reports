@@ -1,26 +1,14 @@
-# Hello World!
-
-## Hello world!
+# CSE 15L Lab Reports
 
 
-* Hello world!
 
-* *Hello world!*
+[Lab Report 1 - Week 2](https://mtang24.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
-* **Hello world!**
+[Lab Report 2 - Week 4](https://mtang24.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
 
-* `Hello world!` 
+[Lab Report 3 - Week 6](https://mtang24.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
 
-* [Hello world!](https://en.wikipedia.org/wiki/"Hello,_World!"_program)
+[Lab Report 4 - Week 8](https://mtang24.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
-* > Hello world!
-
---- 
-
-![Image](code_SS.png)
-
----
-
-
-![Image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.RDBwKq9LkMgzZJ3NKwglSgHaFL%26pid%3DApi&f=1) 
+[Lab Report 5 - Week 10](https://mtang24.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
 
