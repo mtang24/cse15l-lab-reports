@@ -1,6 +1,6 @@
 # Lab Report 3 - Week 6
 
-## Copy Whole Directories with `scp -r`
+## Copy Whole Directories with "`scp -r`"
 
 First, we print our working directory using `pwd` and use `ls` to get the list of files in our current directory:
 
