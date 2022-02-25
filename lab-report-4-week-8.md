@@ -81,3 +81,21 @@ In the implementation of another group, the test did not pass either:
 
 
 ## Potential Code Changes
+
+For Snippet 1, a small code change I could make so that my program works for all related cases that use inline code with backticks might involve:
+
+* putting an if-statement that searches for backticks ( ` ) using indexOf
+    * if any backticks are found within the parentheses, then start nextOpenParen after or nextCloseParen before the backticks
+    * if the backticks are found outside of the parentheses or within the link, then they should be ignored
+
+For Snippet 2, a small code change I could make so that my program works for all related cases that nest parentheses, brackets, and escaped brackets might involve:
+
+* adding an if-statement that checks for an open bracket and another one that checks for an open parenthesis using indexOf
+    * if there is an open bracket and/or an open parenthesis, then there must be a close bracket and/or close parenthesis
+    * otherwise, it cannot be a valid link
+    * if there is more than one set of brackets or parentheses, then the program should check that the number of open brackets/parentheses equal to the number of total close brackets/parentheses
+    * otherwise, it cannot be a valid link
+
+For Snippet 3, there may not be a small code change I could make so that my program works for all related cases that have newlines in brackets and parentheses.
+
+The previous snippets had additional characters that you could check for more easily (backticks, brackets, parentheses), but Snippet 3 involves varying lengths of newlines and spaces. It is much harder to track this and would probably need more than 10 lines of code. One step to make it easier would probably be to check if there are spaces greater than 2, which would account for these newlines that should not be part of the link.
