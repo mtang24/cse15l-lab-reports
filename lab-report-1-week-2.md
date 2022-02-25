@@ -9,7 +9,7 @@ Let's start with installing Visual Studio Code, the IDE (Integrated Development 
 
 
 
-![Image](vscode_website.png)
+![Image](screenshots/vscode_website.png)
 
 
 
@@ -22,7 +22,7 @@ In CSE 15L, we will be using course-specific accounts to connect to a remote com
 
 * After entering `yes`, you will be prompted for your password, and upon providing it you should now be logged in with this output displayed:
 
-![Image](login.png) 
+![Image](screenshots/login.png) 
 
 Now you are logged into a remote computer, which acts as the *server*. Any commands you run on your computer, the *client*, will actually be run on the remote computer via the connection you just established from `ssh`-ing.
 
@@ -33,7 +33,7 @@ Let's try running some commands like `cd`, `ls`, `cp`, and `pwd`. You may want t
 
 For example, running `mkdir` on the server produces this message. Why did this happen?
 
-![Image](mkdir.png)
+![Image](screenshots/mkdir.png)
 
 Here is a list of useful commands. Try running them on the server and think about what each one does:
 * `cd ~`
@@ -51,7 +51,7 @@ A `scp` command can be run from the client, which allows you to copy one or more
 
 * Try creating a file with a name like `WhereAmI.java` that includes the code below:
 
-![Image](WhereAmI.png)
+![Image](screenshots/WhereAmI.png)
 
 * Now you can run the following command in your directory's terminal:
 
@@ -59,19 +59,19 @@ A `scp` command can be run from the client, which allows you to copy one or more
 
 * After entering your password, you should get an output like the one below:
 
-![Image](copyscp.png)
+![Image](screenshots/copyscp.png)
 
 * Try using the `ls` command after `ssh`-ing now. You should see the `WhereAmI.java` file in your home directory. 
 
-![Image](copyls.png)
+![Image](screenshots/copyls.png)
 
 * Using `javac` and `java` commands will give you information about the file on the server, which should be different from what you see on your computer.
 
 **On the server:**
-![Image](copyjavac.png)
+![Image](screenshots/copyjavac.png)
 
 **On the client:**
-![Image](javac.png)
+![Image](screenshots/javac.png)
 
 
 
@@ -84,7 +84,7 @@ Great. But how does this help? When you use the `scp` command, entering your pas
 
 * Follow below to create the private key (in a file id_rsa) and the public key (in a file id_rsa.pub), stored in the .ssh directory on your computer.
 
-![Image](keygen.png)
+![Image](screenshots/keygen.png)
 
 * Next, you copy the *public* key to your account's `.ssh` directory on the server. After `ssh`-ing, enter the following command and logout:
 
@@ -92,7 +92,7 @@ Great. But how does this help? When you use the `scp` command, entering your pas
 
 * Then `scp` like below:
 
-![Image](pub2.png)
+![Image](screenshots/pub2.png)
 
 You should now be able to `sch` and `scp` without needing your password.
 
@@ -104,7 +104,7 @@ When editing and saving files, it can become a lengthy process. Try editing `Whe
 * In the terminal, use the up arrow as many times as needed to get back commands recently used
 * Run a command directly on the remote computer  by surrounding it in quotes at the end of a `ssh`
 
-![Image](7.png)
+![Image](screenshots/7.png)
 
 Without using a single line for a command, you can still use the up arrow to recall the command, but you would need to enter your passphrase for each command on the remote server and press enter for each command. That adds up to significantly more keystrokes than if you just put everything on one line and use ssh keys. 
 
@@ -114,7 +114,7 @@ The before picture shows the process before using this method, and the after pic
 
 **before:**
 
-![Image](beforeFinal.png)
+![Image](screenshots/beforeFinal.png)
 
 
 3 - up (to get first command)
@@ -146,7 +146,7 @@ total: 33 keystrokes
 
 **after:**
 
-![Image](afterFinal.png) 
+![Image](screenshots/afterFinal.png) 
 
 1 - up
 
