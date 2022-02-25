@@ -1,5 +1,9 @@
 # Lab Report 4 - Week 8
 
+View all my lab reports [here](https://mtang24.github.io/cse15l-lab-reports/)!
+
+---
+
 For reference, these are the `markdown-parse` repositories used:
 
 * [Mine](https://github.com/mtang24/markdown-parse)

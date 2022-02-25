@@ -1,5 +1,9 @@
 # Lab Report 1 - Week 2
 
+View all my lab reports [here](https://mtang24.github.io/cse15l-lab-reports/)!
+
+---
+
 Welcome CSE 15L students! Follow this tutorial to setup your course-specific accounts on `ieng6`.
 
 ## Installing VSCode

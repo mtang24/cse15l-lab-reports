@@ -1,5 +1,9 @@
 # Lab Report 2 - Week 4
 
+View all my lab reports [here](https://mtang24.github.io/cse15l-lab-reports/)!
+
+---
+
 ## Code Change 1
 
 ![Image](screenshots/change1.png)

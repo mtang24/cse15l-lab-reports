@@ -1,5 +1,10 @@
 # Lab Report 3 - Week 6
 
+View all my lab reports [here](https://mtang24.github.io/cse15l-lab-reports/)!
+
+---
+
+
 ## Copy Whole Directories with "`scp -r`"
 
 First, we print our working directory using `pwd` and use `ls` to get the list of files in our current directory:
