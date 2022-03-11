@@ -51,8 +51,8 @@ Copying this file and pasting it into the [CommonMark demo website](https://spec
 
 ![Image](lr5-pics/cm22.png)
 
-This link has additional syntax compared to most other links we've dealt with since the beginning.A "title" in quotation marks is added after the URL as an infotip when hovering over the link. Therefore, `myweek9` correctly prints the link out.
+This link has additional syntax compared to most other links we've dealt with since the beginning. A "title" in quotation marks is added after the URL as an tooltip when hovering over the link. Therefore, `myweek9` correctly prints the link out.
 
-The first line of `22.md` has this additional information after the URL, but the provided `week9` markdown-parse implementation does not correctly identify the link. Looking at line 75 below from `week9`, we can see that the bug is that a link will not be returned if it has a space or newline. However, a space should be considered for the case of including infotips after the URL, as we see in `22.md`. As a result, we should fix the code around here so that a space and set of quotation marks after the URL qualifies as a valid link in the `week9` implementation. 
+The first line of `22.md` has this additional information after the URL, but the provided `week9` markdown-parse implementation does not correctly identify the link. Looking at line 75 below from `week9`, we can see that the bug is that a link will not be returned if it has a space or newline. However, a space should be considered for the case of including the code for tooltips after the URL, as we see in `22.md`. As a result, we should fix the code around here so that a space and set of quotation marks after the URL qualifies as a valid link in the `week9` implementation. 
 
 ![Image](lr5-pics/code22.png)
